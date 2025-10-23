@@ -1,0 +1,231 @@
+body{
+    background-color: #eff6ff;
+    padding: 100px;
+    margin: 0px auto;
+}
+.main-container{
+    padding: 0px;
+    width: 80%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+header .ancor a{
+    text-decoration: none;
+    margin: 20px;
+    color: grey;
+    font-size: 17px;
+}
+header .ancor a:hover{
+    color: black;
+}
+header .logout-content a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+header .hamburger svg{
+    cursor: pointer;
+}
+.hamburger{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 17px;
+    display: block;
+}
+.dropdown-content .ancor2{
+    color: grey;
+}
+.dropdown-content .ancor2:hover{
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.logout{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.container h1{
+    text-align: center;
+    color: #003366;
+}
+.timer {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #e60000;
+    font-weight: bold;
+}
+.question {
+    margin-bottom: 25px;
+}
+.question h3 {
+    color: #003366;
+}
+.options label {
+    display: block;
+    background: #f0f4ff;
+    border: 1px solid #cce0ff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 6px 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.options label:hover {
+    background: #cce0ff;
+}
+button {
+    background: #003366;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+}
+button:hover {
+    background: #004080;
+}
+.result {
+    text-align: center;
+    font-size: 20px;
+    color: #003366;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.explanation {
+    background: #eaf3ff;
+    border-left: 5px solid #003366;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.correct {
+    color: green;
+    font-weight: bold;
+}
+.wrong {
+    color: red;
+    font-weight: bold;
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    color: black;
+    padding: 10px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+}
+h1{
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#subjects {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    width: 80%;
+    max-width: 700px;
+}
+.subject-s{
+    margin-left: 150px;
+}
+.subject {
+    text-align: center;
+    padding: 15px 10px;
+    border: 2px solid blue;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: white;
+    font-weight: 500;
+}
+.subject:hover {
+    background-color: #e6f0ff;
+}
+.subject.active {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    transform: scale(1.03);
+}
+.subject.fixed {
+    background-color: blue;
+    color: white;
+    cursor: not-allowed;
+    border-color: blue;
+}
+#continue {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#note {
+    margin-top: 15px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}

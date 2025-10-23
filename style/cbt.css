@@ -1,0 +1,199 @@
+body{
+    background-color: #eff6ff;
+    padding: 100px;
+    margin: 0px auto;
+}
+.main-container{
+    padding: 0px;
+    width: 80%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+header .ancor a{
+    text-decoration: none;
+    margin: 20px;
+    color: grey;
+    font-size: 17px;
+}
+header .ancor a:hover{
+    color: black;
+}
+header .logout-content a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+header .hamburger svg{
+    cursor: pointer;
+}
+.hamburger{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 17px;
+    display: block;
+}
+.dropdown-content .ancor2{
+    color: grey;
+}
+.dropdown-content .ancor2:hover{
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.logout{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+header h1{
+    color: black;
+}
+h1{
+    text-align: center;
+    color: #003366;
+    margin-bottom: 10px;
+}
+#timer{
+    text-align: center;
+    font-size: 18px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+#subjectGrid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.subject-btn{
+    padding: 10px 20px;
+    border: 2px solid blue;
+    background: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+}
+.subject-btn.active{
+    background-color: blue;
+    color: white;
+}
+#questionBox{
+    background: whitesmoke;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#questionText{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.option{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.option:hover{
+    background-color: #e6f0ff;
+}
+.option.selected{
+    background-color: blue;
+    color: white;
+}
+#numberGrid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.num-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s;
+}
+.num-btn.active{
+    background: blue;
+    color: white;
+}
+.num-btn.answered{
+    color: black;
+}
+#controls{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    background: blue;
+    color: black;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+#resultBox{
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mathematics | CBT4Science</title>
+
+        <!--EXTERNAL CSS LINK-->
+        <link rel="stylesheet" href="/style/test.css">
+        <link rel="stylesheet" href="/style/responsive.css">
+    </head>
+    <body class="main-container">
+        <header>
+            <div>
+                    <h1>CBT4Science</h1>
+            </div>
+            <div class="ancor">
+                    <a href="main.html">Home</a>
+                    <a href="instruction.html">Instructions</a>
+                    <a href="about.html">About</a>
+                    <a href="dashboard.html">Dashboard</a>
+            </div>
+            <div class="logout-content">
+                    <a href="login.html">LOGOUT</a>
+            </div>
+            <div class="dropdown">
+                <button class="hamburger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"><path d="M20 7H4"/><path d="M20 12H4" opacity="0.5"/><path d="M20 17H4"/></g>
+                    </svg>
+                </button>
+                <div class="dropdown-content">
+                    <a class="ancor2" href="main.html">Home</a>
+                    <a class="ancor2" href="instruction.html">Instructions</a>
+                    <a class="ancor2" href="about.html">About</a>
+                    <a class="logout" href="index.html">LOGOUT</a>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <h1>JAMB Mathematics Practice Test</h1>
+            <div class="timer" id="timer">Time Left: 30:00</div>
+            <form id="quizForm"></form>
+            <button type="button" onclick="submitQuiz()">Submit</button>
+            <div class="result" id="result"></div>
+        </div>
+        <footer>
+            <div>
+                <p>
+                    Keep practicing - success is one click away!
+                </p>
+                <p>@ 2025 CBT4Science. | Designed for Students' Success</p>
+            </div>
+        </footer>
+
+        <script src="/js/math.js"></script>
+    </body>
+</html>

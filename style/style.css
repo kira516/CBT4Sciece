@@ -1,0 +1,350 @@
+body{
+    background-color: #eff6ff;
+    padding: 100px;
+    margin: 0px auto;
+    width: 60%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section .text-container h1{
+    margin: 0px;
+    margin-top: 10px;
+}
+section .text-container .h1{
+    margin-right: 30px;
+}
+section .text-container p{
+    margin: 0px;
+    margin-top: 10px;
+}
+section .text-container img{
+    padding-top: 60px;
+}
+section .image-container{
+    margin-top: 25px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    height: 300px;
+    padding: 30px;
+}
+section .image-container input{
+    margin-bottom: 15px;
+}
+section .image-container input[type=username]{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+section .image-container input[type=password]{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+section .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .text-container img{
+    margin-top: 20px;
+}
+section .image-container .login a{
+    text-decoration: none;
+    padding: 10px 73px;
+    color: white;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+section .image-container .signup{
+    margin-top: 30px;
+}
+section .image-container .signup a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+section .style-container{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    height: 350px;
+    margin-top: 25px;
+}
+section .style-container input{
+    margin-bottom: 15px;
+}
+section .style-container input[type=name]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+section .style-container input[type=email]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+section .style-container input[type=password]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+section .style-container .signup{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+section .style-container .signup a{
+    text-decoration: none;
+    padding: 10px 70px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+section .style-container a{
+    text-decoration: none;
+    color: blue;
+}
+.main-container{
+    padding: 0px;
+    width: 80%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+header .ancor a{
+    text-decoration: none;
+    margin: 20px;
+    color: grey;
+    font-size: 17px;
+}
+header .ancor a:hover{
+    color: black;
+}
+header .logout-content a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+header .hamburger svg{
+    cursor: pointer;
+}
+.hamburger{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 17px;
+    display: block;
+}
+.dropdown-content .ancor2{
+    color: grey;
+}
+.dropdown-content .ancor2:hover{
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.logout{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+main .main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main .main-content li{
+    line-height: 23px;
+}
+.instruction-container{
+    text-align: center;
+}
+.list li{
+    margin-bottom: 10px;
+}
+main .text-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main .text-content p{
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+main p{
+    margin: 0px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+main .text-content button{
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main .text-content a{
+    text-decoration: none;
+    color: white;
+}
+main .mobile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main .mobile-container p{
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+main .mobile-container button{
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main .mobile-container a{
+    text-decoration: none;
+    color: white;
+}
+main p{
+    margin: 0px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+main .div{
+    text-align: center;
+}
+main .subject-container p{
+    text-align: center;
+}
+main .subject-container .item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main .subject-container .item2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+main .subject-container .images{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.about-container{
+    text-align: center;
+}
+.subject-container{
+    margin-top: 50px;
+}
+.subject-container p{
+    margin: 0px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.subject-container p{
+    text-align: center;
+}
+.subject-container .item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.subject-container .item2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.subject-container .images{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+.subject-container button{
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+.subject-container a{
+    text-decoration: none;
+    color: white;
+}
+.cbt-container{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+    margin: 30px 0px;
+    margin-left: 290px;
+}
+.cbt-container button{
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+}
+.cbt-container a{
+    text-decoration: none;
+    color: white;
+}
+
