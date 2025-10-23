@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> CBT Practice | CBT4Science</title>
+        <title>CBT4Science</title>
 
-        <!--EXTERNAL CSS LINK-->
-        <link rel="stylesheet" href="/style/cbt.css">
-        <link rel="stylesheet" href="/style/responsive.css">
+        <!--EXTENAL CSS LINK-->
+        <link rel="stylesheet" href="selection.css" >
+        <link rel="stylesheet" href="responsive.css">
     </head>
     <body class="main-container">
         <header>
@@ -15,13 +15,12 @@
                 <h1>CBT4Science</h1>
             </div>
             <div class="ancor">
-                    <a href="main.html">Home</a>
-                    <a href="instruction.html">Instructions</a>
-                    <a href="about.html">About</a>
-                    <a href="dashboard.html">Dashboard</a>
+                <a href="main.html">Home</a>
+                <a href="instruction.html">Instructions</a>
+                <a href="about.html">About</a>
             </div>
             <div class="logout-content">
-                    <a href="login.html">LOGOUT</a>
+                <a href="index.html">LOGOUT</a>
             </div>
             <div class="dropdown">
                 <button class="hamburger">
@@ -37,20 +36,12 @@
             </div>
         </header>
         <div>
-            <h1>JAMB CBT Examination</h1>
-            <div id="timer">Time Left: 02:00:00</div>
-            <div id="subjectGrid"></div>
-            <div id="questionBox">
-                <div id="questionText"></div>
-                <div id="options"></div>
-                <div id="numberGrid"></div>
-                <div id="controls">
-                <button id="prevBtn">Previous</button>
-                <button id="nextBtn">Next</button>
-                <button id="submitBtn">Submit</button>
-                </div>
+            <h1>Select Your JAMB Subjects</h1>
+            <div class="subject-s" id="subjects"></div>
+
+            <button id="continue">Proceed to Exam</button>
+            <div id="note">You must select <b>3 more subjects</b> (Use of English is already included).
             </div>
-            <div id="resultBox"></div>
         </div>
         <footer>
             <div>
@@ -61,7 +52,6 @@
             </div>
         </footer>
 
-        <script src="/js/cbt.js"></script>
+        <script src="selection.js"></script>
     </body>
-    
-</html> 
+</html>

@@ -183,6 +183,8 @@ h1{
     gap: 15px;
     width: 80%;
     max-width: 700px;
+    margin-left: 180px;
+
 }
 .subject-s{
     margin-left: 150px;
@@ -195,6 +197,7 @@ h1{
     cursor: pointer;
     transition: all 0.3s;
     background-color: white;
+    margin-left: 40px;
     font-weight: 500;
 }
 .subject:hover {
